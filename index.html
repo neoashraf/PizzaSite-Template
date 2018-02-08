@@ -8,27 +8,27 @@
 			html, #page { padding:0; margin:0;}
 			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
 			h1, h2, h3, h4, h5, h6 {color:darkgreen;}
-			#page { background:#fff;}
-			#header, #footer { margin:0; padding:0;}
+			#page { background:yellow;}
+			#header, #footer, #top-nav, #content1, #content2, #content3 { margin:0; padding:0;}
 						
 			/* Logo */
 			#logo { padding:0; width:auto; float:left;} 
-			#contact { color:black; padding:10px; width:auto; float:right;} 
+			#contact { color:black; padding:0; width:auto; float:right;} 
 
 			/* Header */
 			#header { background:#eaeaea; }
 			#header-inner { margin:0 auto; padding:0; width:970px;}
 
 			/* Feature */
-			#content1 { background-image:url('D:/PizzA_Site/icons/Rectangle1.png');margin:0 auto;padding:0;width:970px;height:350px;}
-/*			#content1Text {padding-top:220px;left:580px;}
-			#content1Image {top:110px;right:530px;}*/
+			.redbody { background:#EAEAEA;padding:0;}
+			#content1-inner { margin:0 auto;padding:0;width:970px;height:350px;}
+			#content1Text {position:absolute;top:150px;left:580px;}
+			#content1Image {position:absolute;top:110px;right:520px;}
 
 			#content2 { background:#EAEAEA;padding:0;}
 			#content2-inner { margin:0 auto;padding:0;width:970px;height:350px;}
 
-			#content3 { background:#EAEAEA;padding:0;}
-			#content3-inner { margin:0 auto;padding:0;width:970px;}
+
 
 			/* Menu */
 			#top-nav { margin:0 auto; padding:0px 0 0; height:50px;float:right;}
@@ -56,15 +56,15 @@
 				<div id="header-inner">	
 
 					<div id="logo">
-						<img src ="D:\PizzA_Site\icons\Pizza.png" alt="Pizza" style="width:205px;height:60px;">
+						<img src ="D:\PizzaSite-Template\icons\Pizza.png" alt="Pizza" style="width:205px;height:60px;">
 					</div>
 					
 
 					<div id="contact">
 						<p> 
-							<img src="D:\PizzA_Site\icons\Shape 1.png" alt="Telephone logo" style="width:28px;height:28px;"> 
+							<img src="D:\PizzaSite-Template\icons\Shape 1.png" alt="Telephone logo" style="width:28px;height:28px;"> 
 							+880 111-000-111 
-							<img src="D:\PizzA_Site\icons\Social icon.png" alt="Social_site Logo" style="width:196px;height:33px;">	
+							<img src="D:\PizzaSite-Template\icons\Social icon.png" alt="Social_site Logo" style="width:196px;height:33px;">	
 						</p>					
 					</div>
 						
@@ -83,58 +83,42 @@
 			</header>
 
 		
-			<div id = "content1">
-				
-						<div id = "content1Text" style = "float :left;">
-							<h1>Create Your Own Pizza</h1>
+			<div class = "redbody">
+			
+					
+						<img src="D:\PizzaSite-Template\icons\Rectangle1.png" alt="Rac 1" style="width:970px;height:350px;">
+
+<!-- 						<div id = "content1Text">
+							<h1 >Create Your Own Pizza</h1>
 							<p>Lorem Ipsum is simply summmy text of the printing and typesetting<br>industry. Lorem Ipsum has been the industry's standard dummy<br>text ever since the 1500s.</p>
-							<button type="button">Read More</button>
+							<button type = "button" style="background-color: transparent;">Read More</button>
 						</div>
 
-						<div id ="content1Image" style = "float :right;">
-							<img src="D:\PizzA_Site\icons\piz.png" alt="PizzaPic" style="width:400px;height:300px;">
-						</div>
+						<div id ="content1Image">
+							<img src="D:\PizzaSite-Template\icons\piz.png" alt="PizzaPic" style="width:400px;height:300px;">
+						</div> -->
 
 
 					<div class="clr"></div>
+			
 				
 			</div>
 
-			<div id = "content2">
+			<div class = "content2">
 				<div id ="content2-inner">
 
 					<div class="clr"></div>
 				</div>
 			</div>
 
-			<div id = "content3">
-				<div id ="content3-inner">
-					<div id="background1">
-						<img src="D:\PizzA_Site\icons\Rectangle2.png" alt="Rac 2" style="width:970px;height:350px;">
-					</div>
-					<div class="clr"></div>
-				</div>
-			</div>
-
-<!-- 			<div id="footerblurb">
-				<div id="footerblurb-inner">
-				
-					<div class="column">
-						<h2><span>Heading</span></h2>
-						<p><script>generateText(2)</script></p>
-					</div>	
-					<div class="column">
-						<h2><span>Heading</span></h2>
-						<p><script>generateText(2)</script></p>
-					</div>
-					<div class="column">
-						<h2><span>Heading</span></h2>
-						<p><script>generateText(2)</script></p>
-					</div>	
+			<div class = "redbody">
+					
+					<img src="D:\PizzaSite-Template\icons\Rectangle2.png" alt="Rac 2" style="width:970px;height:350px;">
 					
 					<div class="clr"></div>
-				</div>
-			</div> -->
+				
+			</div>
+
 
 			<footer id="footer">
 				<div id="footer-inner">
