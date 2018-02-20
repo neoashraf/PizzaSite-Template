@@ -3,44 +3,42 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Fixed Width 1 Green</title>
+		<title>PizzaSite Template</title>
 		<style type="text/css">
+
 			html, #page { padding:0; margin:0;}
 			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
-			h1, h2, h3, h4, h5, h6 {color:darkgreen;}
+			h1, p {color:black;}
 			#page { background:yellow;}
-			#header, #footer, #top-nav, #content1, #content2, #content3 { margin:0; padding:0;}
+			#header, #footer, #content1, #content2, #content3 { background:#EAEAEA; margin:0 auto; padding:0;}
 						
 			/* Logo */
 			#logo { padding:0; width:auto; float:left;} 
-			#contact { color:black; padding:0; width:auto; float:right;} 
+			#contact {padding:0; width:auto; float:right;} 
 
 			/* Header */
-			#header { background:#eaeaea; }
-			#header-inner { margin:0 auto; padding:0; width:970px;}
+
+			#header-inner { margin:0 auto; padding:0; width:100%;}
 
 			/* Feature */
-			.redbody { background:#EAEAEA;padding:0;}
-			#content1-inner { margin:0 auto;padding:0;width:970px;height:350px;}
-			#content1Text {position:absolute;top:150px;left:580px;}
-			#content1Image {position:absolute;top:110px;right:520px;}
 
-			#content2 { background:#EAEAEA;padding:0;}
-			#content2-inner { margin:0 auto;padding:0;width:970px;height:350px;}
+			#content1-inner { margin:0 auto;padding:0;width:100%}
+			#content1-text {font-size: 140%;}
+			#content1-image {}
 
 
+			#content2-inner { background:#EAEAEA;margin:0 auto;padding:0;width:100%;height:500px;}
+			#content2-text {}
+			#content2-image {}
 
-			/* Menu */
-			#top-nav { margin:0 auto; padding:0px 0 0; height:50px;float:right;}
-			#top-nav ul { list-style:none; padding:0; height:50px;float:left;}
-			#top-nav ul li { margin:0; padding:0 0 0 8px; float:left;}
-			#top-nav ul li a { display:block; margin:0; padding:8px 20px; color:black; text-decoration:none;}
-			#top-nav ul li.active a, #top-nav ul li a:hover { color:#4f5257;}
+			
+			#content3-inner { margin:0 auto;padding:0;width:1820px;}
+
 
 			
 			/* Footer */
 			#footer { background:#eaeaea;}
-			#footer-inner { margin:auto; text-align:center; padding:12px; width:922px;}
+			#footer-inner { margin:auto; text-align:center; padding:12px; width:1820px;}
 			#footer a {color:green;text-decoration:none;}
 			
 			/* Clear both sides to assist with div alignment  */
@@ -68,14 +66,14 @@
 						</p>					
 					</div>
 						
-					<div id="top-nav">
+<!-- 					<div id="top-nav">
 						<ul>
 						<li><a href="#">NEWSLETTER</a></li>
 						<li><a href="#">COMMUNITY</a></li>
 						<li><a href="#">SHOP</a></li> 
 						<li><a href="#">CONTACT US</a></li>
 						</ul>
-					</div>
+					</div> -->
 
 					<div class="clr"></div>
 
@@ -83,46 +81,101 @@
 			</header>
 
 		
-			<div class = "redbody">
+			<div class = "content1">
 			
-					
-						<img src="D:\PizzaSite-Template\icons\Rectangle1.png" alt="Rac 1" style="width:970px;height:350px;">
+				<div id ="content1-inner">
+						<img src="D:\PizzaSite-Template\icons\Rectangle1.png" alt="Rac 1">
 
-<!-- 						<div id = "content1Text">
+						<div id = "content1-text">
 							<h1 >Create Your Own Pizza</h1>
 							<p>Lorem Ipsum is simply summmy text of the printing and typesetting<br>industry. Lorem Ipsum has been the industry's standard dummy<br>text ever since the 1500s.</p>
 							<button type = "button" style="background-color: transparent;">Read More</button>
 						</div>
 
-						<div id ="content1Image">
-							<img src="D:\PizzaSite-Template\icons\piz.png" alt="PizzaPic" style="width:400px;height:300px;">
-						</div> -->
+						<div id ="content1-image">
+							<img src="D:\PizzaSite-Template\icons\piz.png" alt="PizzaPic" style="width:500px;height:500px;">
+						</div>
 
 
 					<div class="clr"></div>
-			
+				</div>
 				
 			</div>
 
-			<div class = "content2">
+<!-- 			<div class = "content2">
 				<div id ="content2-inner">
 
+					<div id ="content2-text">
+						<img src ="D:\PizzaSite-Template\icons\Shape.png">
+						<h1>HOW TO PROGRESS?</h1>
+						<img src ="D:\PizzaSite-Template\icons\Shape.png">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+					</div>
+
+					<div id="content2-nev">
+						<ul>
+						<li><a href="#">PIZZA CARTOON</a></li>
+						<li><a href="#">BURGER</a></li>
+						<li><a href="#">SANDWITCH</a></li> 
+						<li><a href="#">LOREMISPSUM</a></li>
+						</ul>
+					</div>
+
+					<div>
+						<img src="D:\PizzaSite-Template\icons\Rectangle 5.png" atl ="ss">
+						<h1>1</h1>
+						<img src="D:\PizzaSite-Template\icons\Layer 1.png">
+						<h1>CREATE IT</h1>
+						<p>Choose from a selection of  tastilicious toppings to create  yo</p>
+
+						
+						<h1>2</h1>
+						<img src="D:\PizzaSite-Template\icons\Layer 3.png">
+						<h1>CREATE IT</h1>
+						<p>Choose from a selection of  tastilicious toppings to create  yo</p>
+						<h1>3</h1>
+						<img src="D:\PizzaSite-Template\icons\Layer 4.png">
+						<h1>FAME IT</h1>
+						<p>Choose from a selection of  tastilicious toppings to create  yo</p>
+					</div>
+					<div>
+						<img src="D:\PizzaSite-Template\icons\Vector Smart Object.png">
+					</div>
+
+					<div class="clr"></div>
+				</div>
+			</div> -->
+
+
+			<div class = "content3">
+				<div id ="content3-inner">
+					<img src="D:\PizzaSite-Template\icons\Rectangle1.png">
+
+					<div id ="content3-text">
+						<img src ="D:\PizzaSite-Template\icons\Shape.png">
+						<h1>FEATURE PRODUCTS</h1>
+						<img src ="D:\PizzaSite-Template\icons\Shape.png">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+					</div>
+					<div>
+						<img src ="D:\PizzaSite-Template\icons\Rectangle 8.png">
+						<img src ="D:\PizzaSite-Template\icons\Layer 5.png">
+						<img src ="D:\PizzaSite-Template\icons\Rectangle 8.png">
+						<img src ="D:\PizzaSite-Template\icons\Layer 6.png">
+						<img src ="D:\PizzaSite-Template\icons\Rectangle 8.png">
+						<img src ="D:\PizzaSite-Template\icons\Layer 7.png">
+						<img src ="D:\PizzaSite-Template\icons\Rectangle 8.png">
+						<img src ="D:\PizzaSite-Template\icons\Layer 8.png">
+					</div>
 					<div class="clr"></div>
 				</div>
 			</div>
 
-			<div class = "redbody">
-					
-					<img src="D:\PizzaSite-Template\icons\Rectangle2.png" alt="Rac 2" style="width:970px;height:350px;">
-					
-					<div class="clr"></div>
-				
-			</div>
 
 
 			<footer id="footer">
 				<div id="footer-inner">
-					<p>&copy; Copyright <a href="#">Your Site</a> &#124; <a href="#">Terms of Use</a> &#124; <a href="#">Privacy Policy</a></p>
+					<p>&copy; 2013-2016 Graphic Resources . All rights reserved.  </p>
 					<div class="clr"></div>
 				</div>
 			</footer>
