@@ -11,16 +11,23 @@
 		.check{border : 1px solid black ;}
 		
 		/* header*/
-		#headerInner{position :relative;margin:auto;width:80%;height:auto;}
+		#headerInner{position :relative;margin:auto;width:70%;height:auto;}
 		#headerL{width:49%;display: inline-block;}
 		#headerR{width:49%; display: inline-block;}
 		/* logo*/
 		#logo {position:absolute; bottom: :0 ; left: 0;}
 		/* headerNav*/
+		#contact{}
+		#contact1{display: inline-block;width: 47%;text-align: right;}
+		#contact1 p{display: inline-block; padding-top:10px; padding-bottom: :0px;}
+		#contact2{display: inline-block;width: 51%;text-align: right; padding-top:10px;padding-bottom: :0px;}
+		#headerNav{position: relative;}
 		#headerNav ul {
+			position: relative;
+			left:260px;
 		    list-style-type: none;
-		    margin: 0;
-		    padding: 0;
+		    margin: 0px;
+		    padding: 0px;
 		    overflow: hidden;
 		}
 		#headerNav li {
@@ -29,7 +36,6 @@
 		#headerNav li a {
 		    display: inline-block;
 		    color: black;
-		    text-align: center;
 		    padding: 16px;
 		    text-decoration: none;
 		}
@@ -42,11 +48,11 @@
 			background-size: 100%;
 			height: 600px;
 		}
-		#p1Inner{position :relative;margin:auto;width:80%;height:auto;}
+		#p1Inner{position :relative;margin:auto;width:70%;height:auto;}
 		#p1L{position : relative; width:49%;display: inline-block;}
 		#p1R{position : relative; width:49%;display: inline-block;}
-		#p1Text{position: absolute; top:200px;left:0px;color:white;font-size:180%;}
-		#p1Image{position: absolute;top:0px;right :0px;}
+		#p1Text{position: absolute; top:200px;left : 0px;color:white;font-size:180%;}
+		#p1Image{position: absolute;top:0px;right : 0px;}
 
 		/*p2*/
 		#p2{
@@ -56,18 +62,20 @@
 			background-size: 100%;
 			height: 600px;
 		}
-		#p2Inner{position :relative;margin:auto;width:80%;height:auto;}
+		#p2Inner{position :relative;margin:auto;width:70%;height:auto;text-align: center;}
 
-		#p21{width:100%; height:25%;}
+		#p21{width:100%; height:25%; padding: 30px 0px 0px 0px;}
 		#p21 h1{display: inline-block;}
 
 		#p22{width:100%;height:50%;}
 		#p22Nav{
-			margin: auto;
-			width:30%;
-			height:auto;
+		
 		}
 		#p22Nav ul {
+			width:auto;
+			position: relative;
+			left:480px;
+			text-align: center;
 		    list-style-type: none;
 		    margin: 0;
 		    padding: 0;
@@ -79,8 +87,7 @@
 		#p22Nav li a {
 		    display: inline-block;
 		    color: black;
-		    text-align: center;
-		    padding: 16px;
+		    padding: 8px;
 		    text-decoration: none;
 		}
 		#p22Image{
@@ -91,9 +98,9 @@
 			height: auto;
 		}
 		.p22Image1{display: inline-block;margin:10px;}
-		.p22Image2{display: inline-block;margin: 10px;width:200px;height:auto;}
+		.p22Image2{display: inline-block;margin: 10px;width:200px;height:auto;text-align: left;}
 
-		#p23{width:100%;height:20%;}
+		#p23{width:100%;height:20%;padding:40px 0px; }
 		.btn {
 			height: 96px; 
 			width: 475px;   
@@ -118,33 +125,33 @@
 			height: 600px;
 
 		}
-		#p3Inner{position :relative;margin:auto;width:80%;height:auto;}
+		#p3Inner{position :relative;margin:auto;width:70%;height:auto;}
 
-		#p31{display:inline; width:100%; height:25%;}
-		#p31 h1{display: inline-block;}
+		#p31{width:100%; height:25%;text-align:center;padding:20px 0px;}
+		#p31 h1{display: inline-block; color:white;}
 		.p32blocks{
 			background-image: url('icons/Rectangle 8.png');
 			text-align: center;
 			width: 300px;
 			height:300px;
 			display: inline-block; 
-			margin: 10px;
+			margin: 15px;
 		}
 		.p32blocksImage{
     		margin :20px;
     		height:200px;
-    		border:1px solid black;
 		}
 		.p32blocksImage img{
 			padding: 20px;
 			width: 50%;
 		}
-		.p32blocksButton {
+		.p32blocksButton{
 			margin: 1px 20px;
-			height: 25px;
-			border:1px solid black;
 		}
-
+		.p32blocksButton button{
+			background-color:#EF2E35;
+			width: 48%;
+		}
 		/* footer*/
 		#footer { background:#eaeaea;text-align:center; padding:12px;}
 
@@ -162,8 +169,13 @@
 
 					<div id ="headerR" >
 						<div id="contact">
-								<img src="icons\Shape 1.png" alt="Telephone logo" style="width:28px;height:28px;">  +880 111-000-111
-								<img src="icons\Social icon.png" alt="Social_site Logo" style="width:196px;height:33px;">	
+							<div id="contact1">
+								<img src="icons\Shape 1.png" alt="Telephone logo" style="width:28px;height:28px;"> 
+								<p>+880 111-000-111</p>
+							</div>
+							<div id="contact2">
+								<img src="icons\Social icon.png" alt="Social_site Logo" style="width:196px;height:33px;">
+							</div>	
 						</div>
 						<div id ="headerNav">
 							<ul>
@@ -229,8 +241,8 @@
 						
 						<div>
 							<div class="p22Image2">
-								<h1 class="p22Image2">CREATE IT</h1>
-								<p class="p22Image2">Choose from a selection of  tastilicious toppings to create  yo</p>
+								<h1>CREATE IT</h1>
+								<p>Choose from a selection of  tastilicious toppings to create  yo</p>
 							</div>
 							<div class="p22Image2">
 								<h1>NAME IT</h1>
@@ -255,7 +267,7 @@
 		<div id ="p3">
 			<div id ="p3Inner">
 
-				<div id = "p31">
+				<div id = "p31"> 
 					<img src ="icons\Shape 2 copy 3.png">
 					<h1 >FEATURE PRODUCTS</h1>
 					<img src ="icons\Shape 2 copy 3.png">
@@ -268,7 +280,7 @@
 						<div class="p32blocksImage">
 							<img src="icons\Layer 5.png">
 						</div>
-						<div class = "p32blocksButtton">
+						<div class="p32blocksButton">
 							<button>LOVE IT</button>
 							<button>CHECK OUT</button>
 						</div>
@@ -278,7 +290,7 @@
 						<div class="p32blocksImage">
 							<img src="icons\Layer 6.png">
 						</div>
-						<div class = "p32blocksButtton">
+						<div class="p32blocksButton">
 							<button>LOVE IT</button>
 							<button>CHECK OUT</button>							
 						</div>												
@@ -288,7 +300,7 @@
 						<div class="p32blocksImage">
 							<img src="icons\Layer 7.png">
 						</div>
-						<div class = "p32blocksButtton">
+						<div class="p32blocksButton">
 							<button>LOVE IT</button>
 							<button>CHECK OUT</button>							
 						</div>												
@@ -298,9 +310,9 @@
 						<div class="p32blocksImage">
 							<img src="icons\Layer 8.png">
 						</div>
-						<div class = "p32blocksButtton">
-							<button>LOVE IT</button>
-							<button>CHECK OUT</button>							
+						<div class="p32blocksButton">
+							<button >LOVE IT</button>
+							<button >CHECK OUT</button>							
 						</div>		
 					</div>
 
