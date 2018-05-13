@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>PizzaSite</title>
+	<style type="text/css">
+
+		body {background-color: #EAEAEA;margin:0; padding:0; width:100%; color:black; font:normal 12px/2.0em Sans-Serif;} 
+		header{height:120px;}
+		.check{border : 1px solid black ;}
+		
+		/* header*/
+		.Inner{position :relative;margin:auto;width:70%;height:auto;}
+		.headerL{width:50%;display: inline-block;text-align:left;}
+		.headerR{width:50%;display: inline-block;position: absolute;right:0px;text-align:right;text-shadow: 0 0 black;}
+		/* headerNav*/
+		.contact{width:100%;}
+		.contact1{display: inline-block;width:49%;}
+		.contact2{display: inline-block;width:49%;}
+		.headerNav{position: relative;display: inline-block;width:100%;} 
+		.headerNav ul{
+			position: absolute;
+			right:0px;
+		    list-style-type: none;
+		    margin: 0px;
+		    padding: 0px;
+		    overflow: hidden;
+		}
+        .headerNav li{
+		    float: left;
+		}
+    	.headerNav li a {
+		    display: block;
+		    color: black;
+			text-align: center;
+		    padding: 16px 0px 16px 16px;
+			margin:0px;
+		    text-decoration: none;
+		}
+
+		/*p1*/
+        .p1{
+			background-image: url("icons/Rectangle1.png");
+			background-repeat: no-repeat;
+			background-position:center;
+			background-size: 100%;
+			height: 600px;
+		}
+
+		.p1L{position : relative; width:49%;display: inline-block;}
+		.p1R{position : relative; width:49%;display: inline-block;}
+		.p1Text{position: absolute; top:200px;left : 0px;color:white;font-size:180%;text-align:left}
+		.p1Image{position: absolute;top:0px;right : 0px;}
+
+		/*p2*/
+        .p2{
+			text-align: center;
+			position : relative;
+			background-size: 100%;
+			height: 700px;
+		}
+        
+        .p21{width:100%; height:25%; padding: 30px 0px 0px 0px;}
+        .p21 h1{display: inline-block;}
+
+        .p22{width:100%;height:50%;}
+		.p22Nav{
+			padding: 0px 470px;
+		}
+        .p22Nav ul{
+			width:400px;
+		    list-style-type: none;
+		    margin: 0px;
+		    padding: 0px;
+		    overflow: hidden;
+		}
+        .p22Nav li {
+		    float: left;
+		}
+        .p22Nav li a {
+		    display: block;
+		    color: black;
+			text-align: center;
+		    padding: 16px 0px 16px 16px;
+			margin:0px;
+		    text-decoration: none;
+		}
+        .p22{
+			background-image: url("icons/Rectangle5.png");
+			background-repeat: no-repeat;
+			background-position:center;
+			background-size: 100%;
+			height: auto;
+		}
+		.p22Tile{
+			display: inline-block;
+			text-align:left;
+			width: 300px;
+			height: 250px;
+			padding: 10px;
+			margin:40px;
+		}
+		.p22Tile h1{
+			font-size:300%;
+			
+		}
+		.p22Tile p{
+			text-align: left;
+		}
+		.p22Tileup h1 {
+			text-align: left;
+			font-size: 700%;
+			display:inline-block;
+		}
+		.p22Tileup img{
+			display:inline-block;
+		}
+
+    	.p23{width:100%;height:20%;padding:40px 0px; }
+		.btn {
+			height: 96px; 
+			width: 475px;   
+			background-image:url('icons/Vector Smart Object.png');
+			
+			background-position: center;
+			background-repeat:no-repeat;
+		}
+		
+        .p23 h1{
+			text-align: center;
+			color:#FFFFFF;
+		}
+		/* p3*/
+        .p3{
+			position : relative;
+			text-align: center;
+			background-image: url("icons/Rectangle1.png");
+			background-repeat: no-repeat;
+			background-position:center;
+			background-size: 100%;
+			height: 600px;
+
+		}
+
+        .p31{width:100%; height:25%;text-align:center;padding:20px 0px;}
+        .p31 h1{display: inline-block; color:white;}
+		.p32blocks{
+			background-image: url('icons/Rectangle 8.png');
+			text-align: center;
+			width: 300px;
+			height:300px;
+			display: inline-block; 
+			margin: 15px;
+		}
+		.p32blocksImage{
+    		margin :20px;
+    		height:200px;
+		}
+		.p32blocksImage img{
+			padding: 20px;
+			width: 50%;
+		}
+		.p32blocksButton{
+			margin: 1px 20px;
+		}
+		.p32blocksButton button{
+			background-color:#EF2E35;
+			width: 48%;
+		}
+		/* footer*/
+        footer {padding:12px;text-align: center;}
+
+	</style>
+</head>
+<body>
+	<div class="page">
+
+		<header>
+			<div class ="Inner">
+
+				<div class="headerL">
+					<img src ="icons\Pizza.png" alt="Pizza">
+				</div>
+
+				<div class ="headerR">
+					<div class="contact">
+						<div class="contact1">
+							<p> <img src="icons\Shape 1.png" alt="Telephone logo" > +880 111-000-111</p>
+						</div>
+						<div class="contact2">
+							<img src="icons\Social icon.png" alt="Social_site Logo" >
+						</div>
+					</div> 
+					<div class ="headerNav">
+						<ul class>
+							<li><a href="#">NEWSLETTER</a></li>
+							<li><a href="#">COMMUNITY</a></li>
+							<li><a href="#">SHOP</a></li> 
+							<li><a href="#">CONTACT US</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="p1">
+			<div class ="Inner">
+				<div class ="p1L">
+					
+					<div class = "p1Text">
+						<h1 >Create Your Own Pizza</h1>
+						<p>Lorem Ipsum is simply summmy text of the printing and typesetting<br>industry. Lorem Ipsum has been the industry's standard dummy<br>text ever since the 1500s.</p>
+						<button type = "button" style="background-color: transparent;">Read More</button>
+					</div>
+
+				</div>
+
+				<div class ="p1R">
+					<div class ="p1Image">
+						<img src="icons\piz.png" alt="PizzaPic" style="width:500px;height:500px;">
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class = "p2">
+			<div class ="Inner">
+				<div class = "p21">
+					<img src ="icons\Shape.png">
+					<h1 >HOW TO PROGRESS?</h1>
+					<img src ="icons\Shape.png">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+				</div>
+				<div class ="p22Nav">
+					<ul>
+						<li><a href="#">PIZZA CARTOON</a></li>
+						<li><a href="#">BURGER</a></li>
+						<li><a href="#">SANDWITCH</a></li> 
+						<li><a href="#">LOREMISPSUM</a></li>
+					</ul>
+				</div>
+				
+				<div class = "p22">
+					
+
+							<div class="p22Tile">
+								<div class="p22Tileup">
+									<h1 class="p22Image1">1</h1>
+									<img class="p22Image1" src="icons\Layer 1.png">
+								</div>
+								<h1>CREATE IT</h1>
+								<p>Choose from a selection of  tastilicious toppings to create  yo</p>
+							</div>
+
+
+							<div class="p22Tile">
+									<div class="p22Tileup">
+
+											<h1 class="p22Image1">2</h1>
+											<img src="icons\Layer 3.png">
+									</div>
+									<h1>NAME IT</h1>
+									<p>Choose from a selection of  tastilicious toppings to create  yo</p>
+							</div>
+							
+
+							<div class="p22Tile">
+									<div class="p22Tileup">
+											<h1 class="p22Image1">3</h1>
+											<img class="p22Image1" src="icons\Layer 4.png">
+									</div>
+									<h1>FAME IT</h1>
+									<p>Choose from a selection of  tastilicious toppings to create  yo</p>
+							</div>
+							
+					</div>
+
+
+				<div  class ="p23">
+					<button class="btn"><h1>CREATE YOUR LEGEND</h1></button>
+				</div>
+
+			</div>
+		</div>
+
+		<div class ="p3">
+			<div class ="Inner">
+
+				<div class = "p31"> 
+					<img src ="icons\Shape 2 copy 3.png">
+					<h1 >FEATURE PRODUCTS</h1>
+					<img src ="icons\Shape 2 copy 3.png">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+				</div>
+
+				<div class = "p32">
+					
+					<div class="p32blocks">
+						<div class="p32blocksImage">
+							<img src="icons\Layer 5.png">
+						</div>
+						<div class="p32blocksButton">
+							<button>LOVE IT</button>
+							<button>CHECK OUT</button>
+						</div>
+					</div>
+
+					<div class="p32blocks">
+						<div class="p32blocksImage">
+							<img src="icons\Layer 6.png">
+						</div>
+						<div class="p32blocksButton">
+							<button>LOVE IT</button>
+							<button>CHECK OUT</button>							
+						</div>												
+					</div>
+
+					<div class="p32blocks">
+						<div class="p32blocksImage">
+							<img src="icons\Layer 7.png">
+						</div>
+						<div class="p32blocksButton">
+							<button>LOVE IT</button>
+							<button>CHECK OUT</button>							
+						</div>												
+					</div>
+
+					<div class="p32blocks">
+						<div class="p32blocksImage">
+							<img src="icons\Layer 8.png">
+						</div>
+						<div class="p32blocksButton">
+							<button >LOVE IT</button>
+							<button >CHECK OUT</button>							
+						</div>		
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="Inner">
+					<p>&copy; 2013-2016 Graphic Resources . All rights reserved.  </p>
+			</div>
+		</footer>
+
+	</div>
+</body>
+</html>
